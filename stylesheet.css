@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(243, 246, 247);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+}
+h1 {
+   color: rgb(60, 71, 75);
+   font-size: 24px; 
+   font-weight: 500;
+   text-align: center;
+}
+
+h2 {
+    color: rgb(60, 71, 75);
+    font-size: 16px;
+    text-align: center;
+}
+
+p{
+    line-height: normal;
+}
+
+i {
+    color: rgb(49, 117, 46);
+    font-size: 24px;
+}
+
+i:hover{
+    color: rgb(0, 0, 0);
+
+}
+.card {
+    border: 1px solid lightslategray;
+    border-radius: 2px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.img-circle{
+    border-radius: 150px;
+    height: 150px;
+}
+
+.text-center{
+    text-align: center;
+
+}
+.list-inline{
+    padding: 0px;
+  }
+
+.list-inline > li {
+    display: inline;
+    padding: 20px;
+  }
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1)
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
